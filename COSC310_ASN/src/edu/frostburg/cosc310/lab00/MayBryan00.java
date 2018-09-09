@@ -7,7 +7,8 @@ package edu.frostburg.cosc310.lab00;
 
 /**
  *
- * @author bmmay0
+ * @author Bryan May
+ * @version 2018.09.09
  */
 public class MayBryan00 {
     
