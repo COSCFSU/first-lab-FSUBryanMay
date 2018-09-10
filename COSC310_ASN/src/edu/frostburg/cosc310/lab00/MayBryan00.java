@@ -47,6 +47,11 @@ public class MayBryan00 implements Lab00{
         return end - start;
     }
     
+    /**
+     * Makes a large String ArrayList of Strings of numbers
+     * @param size the # of times
+     * @return how long it took
+     */
     public long problem2(int size){
         List<String> stringAL = new ArrayList<>();
         long start = System.currentTimeMillis();
@@ -60,6 +65,11 @@ public class MayBryan00 implements Lab00{
         return end - start;
     }
     
+    /**
+     * Makes a large String LinkedList of numbers
+     * @param size the # of times
+     * @return how long it took
+     */
     public long problem2a(int size){
         List<String> stringLL = new LinkedList<>();
         long start = System.currentTimeMillis();
