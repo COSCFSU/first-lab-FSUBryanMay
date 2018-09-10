@@ -1,12 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.frostburg.cosc310.lab00;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
- *
  * @author Bryan May
  * @version 2018.09.09
  */
@@ -46,6 +44,32 @@ public class MayBryan00 implements Lab00{
         }
         
         long end = System.currentTimeMillis();
+        return end - start;
+    }
+    
+    public long problem2(int size){
+        List<String> stringAL = new ArrayList<>();
+        long start = System.currentTimeMillis();
+        
+        for(int i = 0; i < size; i++){
+            stringAL.add(Integer.toString(i));
+        }
+        
+        long end = System.currentTimeMillis();
+        
+        return end - start;
+    }
+    
+    public long problem2a(int size){
+        List<String> stringLL = new LinkedList<>();
+        long start = System.currentTimeMillis();
+        
+        for(int i = 0; i < size; i++){
+            stringLL.add(Integer.toString(i));
+        }
+        
+        long end = System.currentTimeMillis();
+        
         return end - start;
     }
 }
