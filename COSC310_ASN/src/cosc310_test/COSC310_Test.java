@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cosc310_test;
 
-import edu.frostburg.cosc310.lab00.KennedySteveLab00;
+import edu.frostburg.cosc310.lab00.MayBryan00;
 
 /**
  *
- * @author SK
+ * @author Bryan May
+ * @version 2018.09.09
  */
 public class COSC310_Test {
 
@@ -18,9 +14,11 @@ public class COSC310_Test {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        KennedySteveLab00 lab = new KennedySteveLab00();
-        System.out.println(lab.problem0(9999));
-        System.out.println(lab.problem1(9999));
+        MayBryan00 lab = new MayBryan00();
+        System.out.println(lab.problem0(99999));
+        System.out.println(lab.problem1(99999));
+        System.out.println(lab.problem2(99999));
+        System.out.println(lab.problem2a(99999));
     }
     
 }
